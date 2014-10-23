@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template, redirect, url_for
 
+from .forms import CouponForm
 
 twilio_logo_png_url = 'http://www.twilio.com/packages/company/' + \
                       'img/logos_downloadable_logobrand.png'
