@@ -1,0 +1,14 @@
+# web framework for our app
+Flask==0.10.1
+Flask-WTF==0.10.2
+
+# retrieving logos and creating the coupons
+requests==2.4.1
+Pillow==2.5.3
+pyBarcode==0.7
+
+# sending MMS
+twilio==3.6.7
+
+# run the app server with Gunicorn
+gunicorn==19.1.1
